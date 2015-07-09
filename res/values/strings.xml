@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">人脸识别</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">人脸登录</string>
+    <string name="register">注册</string>
+    <string name="loginByPsw">密码登录</string>
+    <string name="denglu">登录</string>
+    
+    <string name="input_psw">请输入密码</string>
+    
+    <string name="enter">确定</string>
+    
+    <string name="info_tips">正在检测人脸，请稍后......</string>
+    <string name="info_name">请输入姓名</string>
+    <string name="info_psw">请输入密码</string>
+    <string name="info_psw2">请确认密码</string>
+
+</resources>

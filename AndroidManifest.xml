@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoxue.facerec.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.hoxue.facerec.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.hoxue.facerec.activity.CheckActivity"
+            android:label="Check" >
+        </activity>
+        
+        <activity
+            android:name="com.hoxue.facerec.activity.LoginActivity"
+            android:label="Login" >
+        </activity>
+        
+        <activity
+            android:name="com.hoxue.facerec.activity.IndexActivity"
+            android:label="Index" >
+        </activity>
+        
+        <activity 
+            android:name="com.hoxue.facerec.activity.LoginByPswActivity"
+            android:label="Login" >
+        </activity>
+        
+        <activity 
+            android:name="com.hoxue.facerec.activity.RegisterActivity"
+            android:label="Register" >
+        </activity>
+        
+        <activity 
+            android:name="com.hoxue.facerec.activity.Register2Activity"
+            android:label="Register2" >
+        </activity>
+        
+        <activity 
+            android:name="com.hoxue.facerec.activity.InfoSetActivity"
+            android:label="InfoSetting" >
+        </activity>
+        
+        <activity 
+            android:name="com.hoxue.facerec.activity.InfoSet2Activity"
+            android:label="InfoSetting2" >
+        </activity>
+        
+        <service 
+            android:name="com.houxue.facerec.service.FaceDetectService" 
+            android:label="FaceDetect">
+        </service>
+        
+    </application>
+
+</manifest>

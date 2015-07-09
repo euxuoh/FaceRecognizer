@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099CC" >
+    
+    <EditText
+        android:id="@+id/input_psw"
+        android:layout_width="220dp" 
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#ffffff"
+        android:hint="@string/input_psw"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+    
+    <Button
+        android:id="@+id/loginbypsw"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="#99CCFF"
+        android:layout_below="@id/input_psw"
+        android:layout_marginTop="30dp"
+        android:text="@string/denglu" />
+
+</RelativeLayout>
